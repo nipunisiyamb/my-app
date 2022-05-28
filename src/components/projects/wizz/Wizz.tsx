@@ -49,9 +49,12 @@ import barriers from "./assets/n_barriers.svg";
 import interviewquotes from "./assets/n_quotes.svg";
 import wizzsystem from "./assets/wizz_system.png";
 import spacedrep from "./assets/spaced_rep_new.svg";
-import visualc from "./assets/visuals.png";
+import visualc from "./assets/visuals.svg";
 
-import userinterfaces from"./assets/UI_sketches.png"; 
+import userinterfaces from "./assets/UI_sketches.jpg";
+import iconsevolution from "./assets/icon_evolution_3.svg";
+import scenariodev from "./assets/scenario_dev.svg";
+
 
 
 
@@ -156,7 +159,7 @@ export default function Wizz(props: {}) {
       <FullwidthImage imageSrc={frameworkImage}></FullwidthImage>
       <CaptionedImage caption={""} imageSrc={elementsImage}></CaptionedImage>
       <CaptionedImage caption={""} imageSrc={spacedrep}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={visualc}></CaptionedImage>
+
 
 
 
@@ -165,21 +168,27 @@ export default function Wizz(props: {}) {
       <ContentSection>
         <H2>Creating a visual communication system that is culturally familiar and safe </H2>
         <ProjectP>
-          Collaborating with our UX designer, I created user interfaces for the different lesson segments. Illustration content and color palettes were carefully chosen 
-          to provide a culturally familiar landscape to the user. I also developed icons to identify different lesson segments in lieu 
-          of using direct terminology such as 'grammar' - words which had stigma associated with them from previous learning attempts. 
+          Collaborating with our UX designer, I created user interfaces for the different lesson segments. Illustration content and color palettes were carefully chosen
+          to provide a culturally familiar landscape to the user. I also developed icons to identify different lesson segments in lieu
+          of using direct terminology such as 'grammar' - words which had stigma associated with them from previous learning attempts.
         </ProjectP>
       </ContentSection>
 
-    
 
-      <CaptionedImage caption={""} imageSrc={lowfiImage}></CaptionedImage>
-      <CaptionedImage caption={""}imageSrc={userinterfaces}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={midfiImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={paperImage}></CaptionedImage>
+      <CaptionedImage caption={""} imageSrc={visualc}></CaptionedImage>
+      <CaptionedImage caption={""} imageSrc={digitalSketchingImage}></CaptionedImage> 
+      <CaptionedImage caption={""} imageSrc={scenariodev}></CaptionedImage>  
       <CaptionedImage caption={""} imageSrc={iconImage}></CaptionedImage>
-      
-      <CaptionedImage caption={""} imageSrc={digitalSketchingImage}></CaptionedImage>
+      <CaptionedImage caption={""} imageSrc={iconsevolution}></CaptionedImage>
+     
+      <CaptionedImage caption={""} imageSrc={lowfiImage}></CaptionedImage>
+      <FullwidthImage imageSrc={userinterfaces}></FullwidthImage>
+   
+    
+      <CaptionedImage caption={""} imageSrc={paperImage}></CaptionedImage>
+
+
+   
 
       <ContentSection>
         <H2>Creating a visual communication system that is culturally familiar and safe </H2>
