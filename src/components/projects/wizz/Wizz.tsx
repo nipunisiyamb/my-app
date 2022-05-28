@@ -51,7 +51,7 @@ import wizzsystem from "./assets/wizz_system.png";
 import spacedrep from "./assets/spaced_rep_new.svg";
 import visualc from "./assets/visuals.png";
 
-import userinterfaces from"./assets/n_UI.png"; 
+import userinterfaces from"./assets/UI_sketches.png"; 
 
 
 
@@ -174,10 +174,11 @@ export default function Wizz(props: {}) {
     
 
       <CaptionedImage caption={""} imageSrc={lowfiImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={userinterfaces}></CaptionedImage>
+      <CaptionedImage caption={""}imageSrc={userinterfaces}></CaptionedImage>
+      <CaptionedImage caption={""} imageSrc={midfiImage}></CaptionedImage>
       <CaptionedImage caption={""} imageSrc={paperImage}></CaptionedImage>
       <CaptionedImage caption={""} imageSrc={iconImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={midfiImage}></CaptionedImage>
+      
       <CaptionedImage caption={""} imageSrc={digitalSketchingImage}></CaptionedImage>
 
       <ContentSection>
