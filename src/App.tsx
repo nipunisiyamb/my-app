@@ -18,37 +18,24 @@ import Wizz from "./components/projects/wizz/Wizz";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Postbits from "./components/projects/postbits/Postbits";
+import Jojo from "./components/projects/jojo/Jojo";
 
 function App() {
   return (
     <Main>
       <Router>
         <Route path="/" exact component={Landing} />
-        <Route path="/project/spark" component={SparkBody} />
-        <Route
-          path="/project/opensciencehardware"
-          component={OpenScienceBody}
-        ></Route>
-        <Route path="/project/tmobile" component={TMOBody}></Route>
-        <Route path="/project/dreamdrones" component={DreamDronesBody}></Route>
         <Route
           path="/project/phoenixtransit"
           component={PhoenixTransitBody}
         ></Route>
-
-        <Route
-          path="/project/prototyping"
-          component={HardwarePrototyping}
-        ></Route>
-
         <Route
           path="/project/bettermobility"
           component={BetterMobilityBody}
         ></Route>
-
         <Route path="/project/wizz" component={Wizz}></Route>
+        <Route path="/project/jojo" component={Jojo}></Route>
 
-        <Route path="/project/postbits" component={Postbits}></Route>
       </Router>
     </Main>
   );

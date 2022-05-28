@@ -9,6 +9,7 @@ import { DreamDroneData } from './dreamdrones/DreamDronesData';
 import { tmoData } from './tmobile/tmoData';
 import { sparkData } from "./spark/SparkData";
 import {openScienceData} from "./opendesign/OpenScienceData"
+import { JojoData } from './jojo/JojoData';
 
 interface project {
     [x:string]:any
@@ -34,15 +35,17 @@ export const skills = {
 }
 
 export const projectData = {
-    "tmobile": { data: tmoData, size: 2, key: "tmobile", skills:[skills.qualitativeInterviews, skills.coIdeation, skills.codesignWorkshops, skills.designStrategy] },
+    // "tmobile": { data: tmoData, size: 2, key: "tmobile", skills:[skills.qualitativeInterviews, skills.coIdeation, skills.codesignWorkshops, skills.designStrategy] },
       "wizz": { data: WizzData, size: 1, key: "wizz", skills:[skills.heuristicEvaluation, skills.qualitativeInterviews, skills.coIdeation, skills.softwarePrototyping] },
-            "spark": { data: sparkData, size: 2, key: "spark" , skills:[skills.qualitativeInterviews, skills.surveys, skills.designStrategy]},
-    "phoenixTransit": { data: PhoenixTransitData, size: 1, key: "phoenixtransit", skills: [skills.guerillaResearch, skills.designStrategy] },
-    "postbits": { data: PostbitsData, size: 2, key: "postbits" , skills:[skills.qualitativeInterviews, skills.fieldStudy, skills.hardwarePrototyping, skills.softwarePrototyping] },
+      "jojo": { data: JojoData, size: 2, key: "jojo", skills:[skills.heuristicEvaluation, skills.qualitativeInterviews, skills.coIdeation, skills.softwarePrototyping] },
 
-    "dreamdrones": { data: DreamDroneData, size: 1, key: "dreamdrones", skills:[skills.academicResearch, skills.coIdeation, skills.softwarePrototyping] },
-    "prototyping": { data: HardwarePrototypingData, size: 1, key: "prototyping", skills:[skills.hardwarePrototyping] },
-         "bettermobility": { data: BetterMobilityData, size: 2, key: "bettermobility", skills:[skills.designStrategy] },
+            // "spark": { data: sparkData, size: 2, key: "spark" , skills:[skills.qualitativeInterviews, skills.surveys, skills.designStrategy]},
+    "phoenixTransit": { data: PhoenixTransitData, size: 1, key: "phoenixtransit", skills: [skills.guerillaResearch, skills.designStrategy] },
+    // "postbits": { data: PostbitsData, size: 2, key: "postbits" , skills:[skills.qualitativeInterviews, skills.fieldStudy, skills.hardwarePrototyping, skills.softwarePrototyping] },
+
+    // "dreamdrones": { data: DreamDroneData, size: 1, key: "dreamdrones", skills:[skills.academicResearch, skills.coIdeation, skills.softwarePrototyping] },
+    // "prototyping": { data: HardwarePrototypingData, size: 1, key: "prototyping", skills:[skills.hardwarePrototyping] },
+        //  "bettermobility": { data: BetterMobilityData, size: 2, key: "bettermobility", skills:[skills.designStrategy] },
 
         
 

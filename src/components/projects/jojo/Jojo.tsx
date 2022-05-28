@@ -13,7 +13,7 @@ import {
 
 import { devices } from "../../../theme/devices";
 import TopBar from "../../ui/topBar/TopBar";
-import { WizzData } from "./WizzData";
+import { JojoData } from "./JojoData";
 
 const projectColorTheme = {
   primary: "#CB1B1B",
@@ -42,26 +42,24 @@ export const VideoContainer = styled.div`
   }
 `;
 
-export default function Wizz(props: {}) {
+export default function Jojo(props: {}) {
   return (
     <ProjectContainer>
       <TopBar></TopBar>
-      <HeroImage src={WizzData.heroImage}></HeroImage>
+      <HeroImage src={JojoData.heroImage}></HeroImage>
       <SummerySection>
-        <Title>{WizzData.title}</Title>
+        <Title>{JojoData.title}</Title>
         <ProjectP>
-          For more than 90% of Sri Lankans, English is not their first language. Yet, it is a vital skill to progress in many careers. Across the country, there are significant barriers to access affordable and effective English learning.
-          In 2020, we helped a young ed-tech startup address this problem and create a mobile learning platform for career-focused English.
+        Learning to express and manage emotions is a key part of early childhood development. Open-ended play allows kids to creatively explore the world around them in their own unique ways. In this project I explored how open-ended play can support social emotional learning of preschoolers through the iterative design of an open-ended toy named “JOJO”.
         </ProjectP>
 
-        <H3>My Role</H3>
+        <H3>Project type</H3>
         <ProjectP>
-          I primarily led the design research, content strategy and visual strategy processes. Collaborating with a UX researcher,
-          language expert, English teachers and a visual designer, we developed a functional prototype of the platform for hand-off.
+          Masters studio final project (individual)
         </ProjectP>
 
         <H3>Duration</H3>
-        <ProjectP>8 months (Feb 2020 - Oct 2020)</ProjectP>
+        <ProjectP>6 months (Jan 2020 - June 2020)</ProjectP>
       </SummerySection>
 
 
@@ -79,40 +77,6 @@ export default function Wizz(props: {}) {
       </ContentSection>
 
     
-
-      
-
-      <ContentSection>
-        <H2>Creating a visual communication system that is culturally familiar and safe </H2>
-        <ProjectP>
-          Our next challenge was to translate the outcomes of our design
-          exploration into a mobile app based learning experience. So we
-          conducted multiple wireframe design and paper prototyping sessions and
-          iteratively developed them into a refined mobile app design.
-        </ProjectP>
-      </ContentSection>
-
-
-      <ContentSection>
-        <H2>Developing a functional prototype of the app</H2>
-        <ProjectP>
-          Then I developed a functional app prototype with a selected set of
-          features using React Native and Spring/Java. The goal of this
-          prototype was to demonstrate the new app design and lesson strategy
-          during investor presentations.
-        </ProjectP>
-      </ContentSection>
-      <VideoContainer>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/h6GLVU2cKWQ"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </VideoContainer>
 
       <SummerySection>
         {/* <H2>Reflections</H2> */}
