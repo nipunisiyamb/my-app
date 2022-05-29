@@ -13,7 +13,7 @@ import { PhoenixTransitData } from "./PhoenixTransitData";
 
 import affinityImage from "./assets/affinity.png";
 import fiveminImage from "./assets/5min.png";
-import observationImage from "./assets/observation.png";
+import observationImage from "./assets/n_observation.jpg";
 import presentationImage from "./assets/presentation.jpg";
 import backlogImage from "./assets/backlog.png";
 import roadsideImage from "./assets/roadside.jpg";
@@ -23,6 +23,10 @@ import moveInImage from "./assets/move.jpg";
 import cardsImage from "./assets/cards.jpg";
 
 import rapidImage from "./assets/rapid.jpg";
+import experience from "./assets/experience_transit.jpg";
+import expertinterview from "./assets/expert_interview.jpeg"; 
+import rapidinterview from "./assets/n_rapid_interview.jpeg";
+
 
 // import slideDeckFile from "./assets/TeamShift.pdf";
 
@@ -48,7 +52,7 @@ export default function PhoenixTransitBody(props: {}) {
           The population of Phoenix, Arizona is booming. The city welcomes new
           residents each year at a rate higher than any other city in the US.
           How can we make Phoenix public transport attractive to its current and
-          future residence? Through a 3-week long design sprint, we developed
+          future residents? Through a 3-week long design sprint, we developed
           strategic directions to unify the payment experience, introduce
           commuter friendly services and implement effective communication
           campaigns.
@@ -58,21 +62,21 @@ export default function PhoenixTransitBody(props: {}) {
         <ProjectP>Student Design Competition</ProjectP>
 
         <H3>Awards</H3>
-        <ProjectP>Best Design Strategy and Presentation </ProjectP>
+        <ProjectP>Best Design Strategy and Presentation, Awarded by Valley Metro Phoenix </ProjectP>
 
         <H3>Team</H3>
         <ProjectP>
-          I worked with Nipuni Siyambalapitiya, a masters' student from the
-          School of Design at Arizona State University.{" "}
+          I worked with Piyum Fernando a PhD student from the
+          School of Arts, Media and Engineering at Arizona State University.{" "}
         </ProjectP>
 
         <H3>My Role</H3>
         <ProjectP>
-          My main responsibility was to plan and conduct rapid user research to
-          bring rich insights and diverse viewpoints to the ideation process
-          within a shorter period of time. We worked together on ideation and
-          concept generation. Nipuni designed most of the visual elements we
-          used in our presentation.
+         I conducted design research including scanning popular media for public transit trends, analysing reports by Valley Metro, conducting interviews with transport experts, and
+         conducting rapid interviews with transit users and non-users. After creating a strategy targeting daily commuters, I designed visualizations of 
+         all the proposed user touchpoints.  
+
+
         </ProjectP>
 
         <H3>Duration</H3>
@@ -80,7 +84,7 @@ export default function PhoenixTransitBody(props: {}) {
       </SummerySection>
 
       <ContentSection>
-        <H2>Week 1: Getting to know the Phoenix Transit</H2>
+        <H2>Week 1: Getting to know the Phoenix Transit system</H2>
         <ProjectP>
           We started the design sprint by travelling around the city by light
           rail and public buses to have a first-hand experience of the current
@@ -92,27 +96,29 @@ export default function PhoenixTransitBody(props: {}) {
       <FullwidthImage imageSrc={observationImage}></FullwidthImage>
 
       <ContentSection>
-        <H2>Week 2: “Five minutes for Transit” Rapid Interviews</H2>
+        <H2>Week 2: Expert Interviews & “Five minutes for Transit” Rapid Interviews</H2>
         <ProjectP>
-          In the second week, we conducted a rapid interview series with 20
+          In the second week, we conducted interviews with transit managers to understand the growing transport needs of Phoenix metropolitan residents. 
+          Afterwards, we held rapid interview series with 20
           participants including both public transit users and non-users. We
           used a set of conversation starters printed on card stock to elicit
           quick responses from the participants. We named this interview “Five
           minutes for Transit”. Each participant was rewarded with a Starbucks
-          gift card attached to their prompt. We held these interviews at car
+          gift card attached to their prompt. These interviews were held at car
           parks, transit stations and within our university.
         </ProjectP>
       </ContentSection>
-      <CaptionedImage
-        caption={
+
+      <CaptionedImage caption={"Expert interview with Eric Iwersen, Transit Manager, City of Tempe"} imageSrc={expertinterview}></CaptionedImage>
+      <CaptionedImage caption={
           "Conversation starters with $5 gift cards which were used during the interviews to elicit quick responses"
         }
         imageSrc={fiveminImage}
       ></CaptionedImage>
 
       <CaptionedImage
-        caption={"I'm conducting a rapid interview at a parking lot"}
-        imageSrc={rapidImage}
+        caption={"Conducting a rapid interview at a parking lot"}
+        imageSrc={rapidinterview}
       ></CaptionedImage>
 
       <ContentSection>
@@ -144,12 +150,12 @@ export default function PhoenixTransitBody(props: {}) {
           </a>
         </ProjectP> */}
       </ContentSection>
-      <CaptionedImage caption={""} imageSrc={cardsImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={collegeImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={moveInImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={backlogImage}></CaptionedImage>
+      <CaptionedImage caption={"We conceptualized a unified payment card 'Cactus' that would reduce effort to onboard to the transit system"} imageSrc={cardsImage}></CaptionedImage>
+      <CaptionedImage caption={"Students would get pre-charged Cactus cards with college branding during college orientation. By providing a limited but significant number of free rides, we encourage students to form the habit of riding transit"} imageSrc={collegeImage}></CaptionedImage>
+      <CaptionedImage caption={"We would reach new Phoenix residents through realtors and companies"} imageSrc={moveInImage}></CaptionedImage>
+      <CaptionedImage caption={"The Valley Metro system would upgrade to include amenities attractive to people commuting to work. Messaging across digital platforms would reflect this audience "} imageSrc={backlogImage}></CaptionedImage>
 
-      <CaptionedImage caption={""} imageSrc={roadsideImage}></CaptionedImage>
+      <CaptionedImage caption={"Valley Metro would invest in messaging placed at key locations - such as digital displays along the freeway during rush hour"} imageSrc={roadsideImage}></CaptionedImage>
 
       <CaptionedImage
         caption={"During our winning presentation"}

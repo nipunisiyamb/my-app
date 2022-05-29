@@ -124,7 +124,7 @@ export default function Wizz(props: {}) {
       ></CaptionedImage>
 
       <ContentSection>
-        <ProjectH2>Conducting preliminary research around the initial brief</ProjectH2>
+        <ProjectH2>Conducting secondary research and qualitative interviews </ProjectH2>
         <ProjectP>
           We started by exploring the motivations of the Sri Lankans for learning English and the barriers they are facing. We reviewed a large body of previous research
           findings and conducted rapid guirilla interviews with 6 participants selected through convenience sampling.
@@ -150,7 +150,7 @@ export default function Wizz(props: {}) {
         imageSrc={redefinedBriefImage}
       ></CaptionedImage>
       <ContentSection>
-        <H2>Exploring the problem with a multidisciplinary team</H2>
+        <H2>Exploring the reframed problem with a multidisciplinary team</H2>
         <ProjectP>
           Our team explored the many facets of the design problem using the following subproblems. I led qualitative interviews with industry segments, explored English learning essentials with teachers,
           structured new content, and developed a new visual style.
@@ -168,30 +168,21 @@ export default function Wizz(props: {}) {
       <ContentSection>
         <H2>Creating a visual communication system that is culturally familiar and safe </H2>
         <ProjectP>
-          Collaborating with our UX designer, I created user interfaces for the different lesson segments. Illustration content and color palettes were carefully chosen
-          to provide a culturally familiar landscape to the user. I also developed icons to identify different lesson segments in lieu
-          of using direct terminology such as 'grammar' - words which had stigma associated with them from previous learning attempts.
+          We wanted to create a visual communication system that supported a joyful learning experience. In order to achieve this
+          it was important that the elements and styles we used provided a comfortable and familiar visual landscape. We also developed an icon system that denoted
+          the different lesson segments - grammar, vocabulary etc - in lieu of written terms, as these terms often have prior stigma associated with them.
         </ProjectP>
       </ContentSection>
 
 
       <CaptionedImage caption={""} imageSrc={visualc}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={digitalSketchingImage}></CaptionedImage> 
-      <CaptionedImage caption={""} imageSrc={scenariodev}></CaptionedImage>  
+      <CaptionedImage caption={""} imageSrc={digitalSketchingImage}></CaptionedImage>
+      <CaptionedImage caption={"Developing culturally familiar situations, attire, faces and names"} imageSrc={scenariodev}></CaptionedImage>
       <CaptionedImage caption={""} imageSrc={iconImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={iconsevolution}></CaptionedImage>
-     
-      <CaptionedImage caption={""} imageSrc={lowfiImage}></CaptionedImage>
-      <FullwidthImage imageSrc={userinterfaces}></FullwidthImage>
-   
-    
-      <CaptionedImage caption={""} imageSrc={paperImage}></CaptionedImage>
-
-
-   
+      <CaptionedImage caption={"The exploration of icons to break away from the stigma of written terms"} imageSrc={iconsevolution}></CaptionedImage>
 
       <ContentSection>
-        <H2>Creating a visual communication system that is culturally familiar and safe </H2>
+        <H2>Developing mobile interfaces</H2>
         <ProjectP>
           Our next challenge was to translate the outcomes of our design
           exploration into a mobile app based learning experience. So we
@@ -199,6 +190,23 @@ export default function Wizz(props: {}) {
           iteratively developed them into a refined mobile app design.
         </ProjectP>
       </ContentSection>
+
+      <CaptionedImage caption={""} imageSrc={lowfiImage}></CaptionedImage>
+      <FullwidthImage imageSrc={userinterfaces}></FullwidthImage>
+      <CaptionedImage caption={""} imageSrc={paperImage}></CaptionedImage>
+
+
+      <ContentSection>
+        <H2>Designing a microinteraction for translation</H2>
+        <ProjectP>
+          Our next challenge was to make sure that learners got meaningful translation support.
+          We wanted to find the sweet spot where they would understand the content in their native language, and yet be pushed to read and comprehend in English.
+          For this we explored what a microinteraction for translation might look and work like.
+        </ProjectP>
+      </ContentSection>
+
+
+
 
 
       <ContentSection>
