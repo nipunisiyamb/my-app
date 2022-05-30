@@ -27,7 +27,7 @@ export const ContentSection = styled.div`
 `;
 
 export const ProjectP = styled(P)`
-    width:40vw;
+    width:38vw;
     margin-bottom:1.5vw;
     @media ${devices.mobile} {
     width:80vw;

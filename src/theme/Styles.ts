@@ -24,7 +24,7 @@ export const Page = styled.div`
 
 export const H1 = styled.h1`
     font-family: 'Red Hat Display', sans-serif;
-    font-weight:700;
+    font-weight:800;
     text-align: left;
     font-size:3.6vw;
      line-height:1.3;
@@ -37,10 +37,12 @@ export const H1 = styled.h1`
 
 export const H2 = styled.h2`
     font-family: 'Red Hat Display', sans-serif;
-    font-weight:700;
+    font-weight:800;
     text-align: left;
-    font-size:2vw;
-    max-width:40vw;
+    font-size:1.5vw;
+    max-width:36vw;
+    line-height:1.4;
+
 
     @media ${devices.mobile} {
     font-size:6vw;
@@ -68,7 +70,7 @@ export const P = styled.p`
     font-family: 'Inter', sans-serif;
     font-weight:400;
     text-align: left;  
-    font-size:1.2vw;
+    font-size:1vw;
     line-height:1.7;
     margin:0;
 
