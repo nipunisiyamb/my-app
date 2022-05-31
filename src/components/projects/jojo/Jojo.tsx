@@ -103,7 +103,7 @@ export default function Jojo(props: {}) {
             <CaptionedImage caption={""} imageSrc={readings}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc= {synthesis}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc={synthesisZoom}></CaptionedImage>
-            <FullwidthImage imageSrc={secondaryResearch}></FullwidthImage>
+        <CaptionedImage caption={""}imageSrc={secondaryResearch}></CaptionedImage>
 
             <ContentSection>
                 <H2>Exploring open ended play through naturalistic observations</H2>
@@ -119,7 +119,7 @@ export default function Jojo(props: {}) {
                     In addition to design research activities, I also conduct a brief market research to understand the current toy market and identify the market gap I want to address through this project.
                 </ProjectP>
             </ContentSection>
-            <FullwidthImage imageSrc={toyMarketImage}></FullwidthImage>
+            <CaptionedImage caption={""} imageSrc= {toyMarketImage}></CaptionedImage>
 
             <ContentSection>
                 <H2>
