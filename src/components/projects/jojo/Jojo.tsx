@@ -20,7 +20,7 @@ import FullwidthImage from "../../ui/fullwidthImage/FullwidthImage";
 import secondaryResearch from "./assets/emotion_map_animated.gif"
 import toyMarketImage from "./assets/market.jpg"
 import bookeletRenderImage from "./assets/bookled_render.png"
-import initialSketchesImage from "./assets/initial-sketches.jpg"
+import initialSketchesImage from "./assets/Initial-sketches.jpg"
 import expertImage from "./assets/expert_interview.jpg"
 import toyDimensionImage from "./assets/toy_dimension.jpg"
 import prototypeOneImage from "./assets/prototype_1.jpg"
@@ -35,6 +35,8 @@ import readings from "./assets/secondary_research01.jpg";
 import synthesis from "./assets/synthesis.jpg";
 import synthesisZoom from"./assets/synthesis_zoomin.jpg";
 import designproblem from"./assets/design_problem.svg";
+import musuemPlayVideo from "./assets/musuem_play1.mp4";
+import CaptionedVideo from "../../ui/video/CaptionedVideo";
 
 
 
@@ -103,7 +105,7 @@ export default function Jojo(props: {}) {
             <CaptionedImage caption={""} imageSrc={readings}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc= {synthesis}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc={synthesisZoom}></CaptionedImage>
-        <CaptionedImage caption={""}imageSrc={secondaryResearch}></CaptionedImage>
+            <FullwidthImage imageSrc={secondaryResearch}></FullwidthImage>
 
             <ContentSection>
                 <H2>Exploring open ended play through naturalistic observations</H2>
@@ -119,7 +121,7 @@ export default function Jojo(props: {}) {
                     In addition to design research activities, I also conduct a brief market research to understand the current toy market and identify the market gap I want to address through this project.
                 </ProjectP>
             </ContentSection>
-            <CaptionedImage caption={""} imageSrc= {toyMarketImage}></CaptionedImage>
+            <FullwidthImage imageSrc={toyMarketImage}></FullwidthImage>
 
             <ContentSection>
                 <H2>
@@ -163,6 +165,7 @@ export default function Jojo(props: {}) {
             </ContentSection>
             <CaptionedImage caption={""} imageSrc={museumPrototype}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc={kidsImage}></CaptionedImage>
+            <CaptionedVideo videoSrc={musuemPlayVideo}></CaptionedVideo>
 
 
 
