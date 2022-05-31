@@ -18,7 +18,7 @@ import { JojoData } from "./JojoData";
 import observingPlayImage from "./assets/observation.jpg";
 import FullwidthImage from "../../ui/fullwidthImage/FullwidthImage";
 import secondaryResearch from "./assets/emotion_map_animated.gif"
-import toyMarketImage from "./assets/market.png"
+import toyMarketImage from "./assets/market.jpg"
 import bookeletRenderImage from "./assets/bookled_render.png"
 import initialSketchesImage from "./assets/initial-sketches.jpg"
 import expertImage from "./assets/expert_interview.jpg"
@@ -27,10 +27,14 @@ import prototypeOneImage from "./assets/prototype_1.jpg"
 import prototypeTwoImage from "./assets/prototype_2.jpg"
 import prototypeThreeImage from "./assets/prototype_3.jpg"
 import museumPrototype from "./assets/musuem_prototypes.jpg"
-import kidsImage from "./assets/museum_photos.jpg"
+import kidsImage from "./assets/museum_activity.jpg"
 import finalSketches from "./assets/final_sketches.jpg"
 import partsRendering from "./assets/jojo_parts.jpg"
 import storyImage from "./assets/story.jpg"
+import readings from "./assets/secondary_research01.jpg";
+import synthesis from "./assets/synthesis.jpg";
+import synthesisZoom from"./assets/synthesis_zoomin.jpg";
+import designproblem from"./assets/design_problem.svg";
 
 
 
@@ -78,7 +82,7 @@ export default function Jojo(props: {}) {
                 </ProjectP>
 
                 <H3>Duration</H3>
-                <ProjectP>6 months (Jan 2020 - June 2020)</ProjectP>
+                <ProjectP>6 months (Jan 2020 - Jun 2020)</ProjectP>
             </SummerySection>
 
             <FullwidthImage imageSrc={bookeletRenderImage}></FullwidthImage>
@@ -88,6 +92,7 @@ export default function Jojo(props: {}) {
                     “How might we design a toy to encourage creative emotional expression in 2 to 5 year olds through open-ended play?”
                 </ProjectP>
             </ContentSection>
+            <CaptionedImage caption={""} imageSrc={designproblem}></CaptionedImage>
 
             <ContentSection>
                 <H2>Starting with secondary research on social emotional learning </H2>
@@ -95,6 +100,9 @@ export default function Jojo(props: {}) {
                     From the onset of this project, I was curious to learn about the fundamentals of early childhood development and previous work on emotional competence of kids. During the first 2 weeks, I conducted secondary research on social emotional learning of preschoolers and created a visual summary of my learnings.
                 </ProjectP>
             </ContentSection>
+            <CaptionedImage caption={""} imageSrc={readings}></CaptionedImage>
+            <CaptionedImage caption={""} imageSrc= {synthesis}></CaptionedImage>
+            <CaptionedImage caption={""} imageSrc={synthesisZoom}></CaptionedImage>
             <FullwidthImage imageSrc={secondaryResearch}></FullwidthImage>
 
             <ContentSection>
