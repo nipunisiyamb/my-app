@@ -30,7 +30,7 @@ import museumPrototype from "./assets/musuem_prototypes.jpg"
 import kidsImage from "./assets/museum_activity.jpg"
 import finalSketches from "./assets/final_sketches.jpg"
 import partsRendering from "./assets/jojo_parts.jpg"
-import storyImage from "./assets/story.jpg"
+import storyImage from "./assets/story.png"
 import readings from "./assets/secondary_research01.jpg";
 import synthesis from "./assets/synthesis.jpg";
 import synthesisZoom from"./assets/synthesis_zoomin.jpg";
@@ -39,6 +39,7 @@ import musuemPlayVideo from "./assets/musuem_play1.mp4";
 
 import CaptionedVideo from "../../ui/video/CaptionedVideo";
 import jojocover from"./assets/Jojo_cover.jpg";
+import jojopage from"./assets/Jojo_flipped.png";
 
 
 
@@ -107,7 +108,8 @@ export default function Jojo(props: {}) {
             <CaptionedImage caption={""} imageSrc={readings}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc= {synthesis}></CaptionedImage>
             <CaptionedImage caption={""} imageSrc={synthesisZoom}></CaptionedImage>
-            <FullwidthImage imageSrc={secondaryResearch}></FullwidthImage>
+            <CaptionedImage caption={""} imageSrc={secondaryResearch}></CaptionedImage>
+         
 
             <ContentSection>
                 <H2>Exploring open ended play through naturalistic observations</H2>
@@ -123,7 +125,8 @@ export default function Jojo(props: {}) {
                     In addition to design research activities, I also conduct a brief market research to understand the current toy market and identify the market gap I want to address through this project.
                 </ProjectP>
             </ContentSection>
-            <FullwidthImage imageSrc={toyMarketImage}></FullwidthImage>
+            <CaptionedImage caption={""} imageSrc={toyMarketImage}></CaptionedImage>
+       
 
             <ContentSection>
                 <H2>
@@ -194,8 +197,10 @@ export default function Jojo(props: {}) {
                     Identifying storytelling as an opportunity to scaffold creative expression using Jojo, I designed a booklet with a story about different emotions of Jojo.
                 </ProjectP>
             </ContentSection>
+            <CaptionedImage caption={""} imageSrc={jojocover}></CaptionedImage>
+            <CaptionedImage caption={""} imageSrc={jojopage}></CaptionedImage>
             <FullwidthImage imageSrc={storyImage}></FullwidthImage>
-            <FullwidthImage imageSrc={jojocover}></FullwidthImage>
+           
 
             <ContentSection>
                 <H2>
