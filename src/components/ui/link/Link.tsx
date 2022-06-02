@@ -4,7 +4,7 @@ import { devices } from "../../../theme/devices";
 import { P, H2 } from "../../../theme/Styles";
 
 const Text = styled(P)`
-  font-size: 1.2vw;
+  font-size: 1vw;
   margin: 0;
   @media ${devices.mobile} {
     font-size: 4vw;
@@ -18,7 +18,7 @@ const Container = styled.div`
   margin-right: 2vw;
   cursor: pointer;
   /* transition: border 0.5s; */
-  height: 2vw;
+  height: 1.6vw;
   @media ${devices.mobile} {
     height: 6vw;
     border-bottom: none;

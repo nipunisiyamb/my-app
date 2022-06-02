@@ -45,10 +45,11 @@ const Body = styled(P)`
   }
 `;
 const ImageContainer = styled.div`
-  width: 38vw;
+  width: 65vw;
   overflow: hidden;
-  margin-top: 5vw;
-  margin-bottom: 1vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 
   @media ${devices.mobile} {
     width: 80vw;
@@ -59,19 +60,17 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   margin: auto;
-  width: 38vw;
+  width: 35vw;
   @media ${devices.mobile} {
     width: 80vw;
   }
 `;
 
-const ImageTextContainer = styled.div`
-  display: flex;
-  margin: auto;
-  @media ${devices.mobile} {
-    width: 80vw;
-    flex-direction: column;
-  }
+const Divider = styled.div`
+  width:90vw;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 `;
 
 export default function AboutMe() {
@@ -79,12 +78,12 @@ export default function AboutMe() {
     <section id="aboutme">
       <AboutMePage>
         <Header>
-          <H2>About Me</H2>
+        <H2 color={"#D93690"}>About Me</H2>
         </Header>
 
-        {/* <ImageContainer>
-          <Image src={handsonImage}></Image>
-        </ImageContainer> */}
+        
+        <Divider>
+        
         <div>
           <MainText>
             I’m a hands-on person. I love playing with materials and making
@@ -96,7 +95,7 @@ export default function AboutMe() {
             prototypes for user testing, I love materializing ideas, bringing
             them to life and seeing how people react to them.{" "}
           </Body>
-        </div>
+        
 
         {/* <ImageContainer>
           <Image src={codesignImage}></Image>
@@ -122,6 +121,13 @@ export default function AboutMe() {
           logic. I think each of these plays a part in great designs, so do the
           differences of my team members.
         </Body>
+        </div>
+
+        <ImageContainer>
+          <Image src={handsonImage}></Image>
+        </ImageContainer>
+
+        </Divider>
 
         {/* <MainText>My life in a nutshell</MainText>
         <Body>

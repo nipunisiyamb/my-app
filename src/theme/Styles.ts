@@ -5,7 +5,8 @@ import { devices } from "./devices";
 export const colorTheme = {
   lightGrey: "#EEEEEE",
   grey:"#D7D7D7",
-  white:"#ffffff"
+  white:"#ffffff",
+  lightBlue:"#D5DEE2"
 }
 
 export const Main = styled.div`
@@ -20,6 +21,15 @@ export const Page = styled.div`
     padding-left:10vw;
     max-width:100vw;
     overflow:hidden; 
+
+    a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none; /* no underline */
+}
 `;
 
 export const H1 = styled.h1`
@@ -35,13 +45,14 @@ export const H1 = styled.h1`
 `;
 
 
-export const H2 = styled.h2`
+export const H2 = styled.h2<{color?:string}>`
     font-family: 'Red Hat Display', sans-serif;
     font-weight:800;
     text-align: left;
     font-size:1.5vw;
     max-width:36vw;
     line-height:1.4;
+    color:${props=>props.color||"black"};
 
 
     @media ${devices.mobile} {
@@ -51,7 +62,7 @@ export const H2 = styled.h2`
 `;
 
 export const H3 = styled.h3`
-    font-family: 'Red Hat Display', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
     font-weight:700;
     text-align: left;
     font-size:1.3vw;

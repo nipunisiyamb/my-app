@@ -43,7 +43,7 @@ export default function Portfolio(props: {
     <section id="portfolio">
       <PortfolioPage>
         <Header>
-          <H2>Portfolio</H2>
+          <H2 color={"#D93690"}>Portfolio</H2>
           {/* <LinkContainer>
             <Link text={"UX Research"}></Link>
             <Link text={"Software"}></Link>

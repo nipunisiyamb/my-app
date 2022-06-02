@@ -39,7 +39,7 @@ const Title = styled(H3)<{ size: number }>`
 
 const Container = styled.div<{ size: number }>`
   width: ${(props) => (props.size == 2 ? 45 : 30)}vw;
-  border-bottom: 2px solid black;
+  // border-bottom: 2px solid ${colorTheme.lightBlue};
   height: 34vw;
   cursor: pointer;
   margin-bottom: 5vw;
@@ -70,13 +70,14 @@ const SkillContainer = styled.div`
 `;
 
 const Skill = styled(P)`
-  font-size: 1vw;
+  font-size: 0.8vw;
   font-weight: 500;
-  padding: 0.2vw 0.5vw;
+  padding: 0.3vw 0.8vw;
   margin-right: 0.8vw;
   margin-top: 0.8vw;
+  border-radius:0.5vw;
 
-  background-color: ${colorTheme.lightGrey};
+  background-color: ${colorTheme.lightBlue};
 
   @media ${devices.mobile} {
     font-size: 3.5vw;

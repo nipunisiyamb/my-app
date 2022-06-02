@@ -16,6 +16,15 @@ const Container = styled.div`
   @media ${devices.mobile} {
     padding: 5vw 2vw;
   }
+
+  a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none; /* no underline */
+}
 `;
 
 export default function TopBar(props: {

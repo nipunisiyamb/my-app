@@ -9,10 +9,10 @@ import TopBar from "../../ui/topBar/TopBar";
 import AboutMe from "../aboutme/AboutMe";
 import Portfolio from "../portfolio/Portfolio";
 import Resume from "../resume/Resume";
-import profileImage from "./assets/piyum.jpg";
+import profileImage from "./assets/nipuni_profile.png";
 
 const Container = styled.div`
-  height: 92vh;
+  height: 98vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -26,6 +26,8 @@ const WelcomeText = styled(H2)`
   width: 32vw;
   margin: 0;
   margin-bottom: 1.2vw;
+  font-size:1.8vw;
+  color:#D93690;
   @media ${devices.mobile} {
     width: 100vw;
     font-size: 6vw;
@@ -43,11 +45,21 @@ const Intro = styled(P)`
   }
 `;
 
+const Divider = styled.div`
+  width:95vw;
+  display:flex;
+  align-items:flex-end;
+  flex-direction: row-reverse;
+  margin-bottom:5vw;
+`;
+
+
 const ImageContainer = styled.div`
-  width: 33vw;
-  height: 20vw;
-  overflow: hidden;
-  margin-bottom: 3vw;
+  width: 62vw;
+  display:flex;
+  justify-content:flex-end;
+  // height: 20vw;
+  // overflow: hidden;
   @media ${devices.mobile} {
     width: 80vw;
     height: auto;
@@ -57,7 +69,8 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   margin: auto;
-  width: 35vw;
+  margin-right:10vw;
+  width: 75vw;
   @media ${devices.mobile} {
     width: 80vw;
   }
@@ -66,6 +79,9 @@ const Image = styled.img`
 const LinkContainer = styled.div`
   display: flex;
   justify-content: flex-start;
+  margin-top:4vw;
+  margin-bottom:2vw;
+  z-index:1000;
   @media ${devices.mobile} {
     margin-top: 4vw;
     flex-direction: column;
@@ -98,15 +114,14 @@ export default function Landing(props: RouteComponentProps<any>) {
         {showGoToTop && <GoToTop />}
         <Container>
           <section id="home">
+            <Divider>
             <ImageContainer>
               <Image src={profileImage} alt="dfdf"></Image>
             </ImageContainer>
-            <WelcomeText>Hi, I'm Nipuni Siyambalapitya</WelcomeText>
+            <div>
+            <WelcomeText>Hello, I’m Nipuni {">"} nee-poo-nee</WelcomeText>
             <Intro>
-              I’m an interaction designer/researcher with a strong background in
-              software engineering and digital-physical prototyping. I completed
-              my PhD in Human Computer Interaction at Arizona State University
-              in December 2020.
+            I’m a designer, researcher and educator with a strong background in industrial design. I work with teams to explore complex problems  
             </Intro>
             <LinkContainer>
               <a href="#portfolio">
@@ -121,7 +136,9 @@ export default function Landing(props: RouteComponentProps<any>) {
               <a href="#resume">
                 <Link text={"View resume"}></Link>
               </a>
-            </LinkContainer>
+            </LinkContainer></div>
+            
+            </Divider>
           </section>
         </Container>
       </Page>
