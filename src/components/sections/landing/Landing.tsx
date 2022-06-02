@@ -133,9 +133,9 @@ export default function Landing(props: RouteComponentProps<any>) {
               <a href="#aboutme">
                 <Link text={"More about me"}></Link>
               </a>
-              <a href="#resume">
+              {/* <a href="#resume">
                 <Link text={"View resume"}></Link>
-              </a>
+              </a> */}
             </LinkContainer></div>
             
             </Divider>
@@ -146,7 +146,7 @@ export default function Landing(props: RouteComponentProps<any>) {
         onProjectClick={(key: string) => onProjectClick(key)}
       ></Portfolio>
       <AboutMe></AboutMe>
-      <Resume></Resume>
+      {/* <Resume></Resume> */}
     </div>
   );
 }
