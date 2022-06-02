@@ -48,6 +48,10 @@ const Container = styled.div<{ size: number }>`
     transform: scale(1.1);
   }
 
+  &:hover ${Title} {
+    text-decoration:underline
+  }
+
   @media ${devices.mobile} {
     width: 80vw;
     height: auto;
