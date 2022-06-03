@@ -46,18 +46,20 @@ export const skills = {
     informationDesign: "Information Design",
     systemDesign: "System Design",
     designEducation: "Design Education",
-    studioBasedLearning: "Studio-based Learning"
+    studioBasedLearning: "Studio-based Learning",
+    uiDesign:"UI design"
 
 }
 
 export const projectData = {
     // "tmobile": { data: tmoData, size: 2, key: "tmobile", skills:[skills.qualitativeInterviews, skills.coIdeation, skills.codesignWorkshops, skills.designStrategy] },
-      "wizz": { data: WizzData, size: 1, key: "wizz", skills:[skills.designResearch, skills.contentStrategy, skills.visualDesign, skills.interactionDesign] },
-      "jojo": { data: JojoData, size: 2, key: "jojo", skills:[skills.observation, skills.playTesting, skills.prototyping, skills.visualStorytelling] },
+    "jojo": { data: JojoData, size: 2, key: "jojo", skills:[skills.observation, skills.playTesting, skills.prototyping, skills.visualStorytelling] },
+
+    "wizz": { data: WizzData, size: 1, key: "wizz", skills:[skills.designResearch, skills.contentStrategy, skills.visualDesign, skills.interactionDesign] },
 
     "phoenixTransit": { data: PhoenixTransitData, size: 1, key: "phoenixtransit", skills: [skills.guerillaResearch, skills.qualitativeInterviews, skills.designStrategy] },
 
-    "swlc": { data: SWLCData, size: 2, key: "swlc", skills: [skills.codesign, skills.informationDesign, skills.interactionDesign] },
+    "swlc": { data: SWLCData, size: 2, key: "swlc", skills: [skills.codesign, skills.informationDesign, skills.uiDesign] },
     "blip": { data: BlipData, size: 2, key: "blip", skills: [skills.informationDesign, skills.systemDesign, skills.surveys] },
     "design_studio": { data: DesignStudioData, size: 1, key: "design_studio", skills: [skills.designEducation, skills.studioBasedLearning] },
 

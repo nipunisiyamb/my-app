@@ -37,7 +37,7 @@ export const H1 = styled.h1`
     font-weight:800;
     text-align: left;
     font-size:3.6vw;
-     line-height:1.3;
+     line-height:1.2;
      @media ${devices.mobile} {
     font-size:7vw;
      max-width:80vw;
