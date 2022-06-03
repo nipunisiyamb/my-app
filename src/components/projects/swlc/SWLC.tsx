@@ -17,6 +17,8 @@ import interviewguide from "./assets/interview_guide.jpg";
 import initialwireframes from "./assets/initial_wireframes.png";
 import codesign from "./assets/co_design.png";
 import borrow from "./assets/borrow.png";
+import exploration from "./assets/exploration.svg";
+import usertesting from"./assets/user_testing.png";
 
 import TopBar from "../../ui/topBar/TopBar";
 import { devices } from "../../../theme/devices";
@@ -107,18 +109,20 @@ export default function SWLC(props: {}) {
           streamlined the service and added a ‘How to Borrow’ section to the home page.
         </ProjectP>
       </ContentSection>
-      <CaptionedImage caption={""} imageSrc={codesign}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={borrow}></CaptionedImage>
+     <FullwidthImage imageSrc={codesign}></FullwidthImage>
+     
       <ContentSection>
-        <H2>Co-designing web interfaces </H2>
+        <H2>Creating an accessible visual system </H2>
         <ProjectP>
-          To stress test our initial wireframes and to create the next iterations with
-          first hand input from the client team, we conducted a co-design activity.
-          We provided prints of the wireframes and a custom made card deck that captured key moments of their service to each participant.
-          The team cut down service steps,
-          streamlined the service and added a ‘How to Borrow’ section to the home page.
+        In our initial conversations, we discovered that SWLC’s clientele tended to be older, 
+        and often in distress at the time they seek SWLC’s service. 
+        Therefore, we wanted to prioritize readability and accessibility of our web interfaces. 
+        We tested and implemented best practices in font size and color contrast throughout our visual system. 
+
         </ProjectP>
       </ContentSection>
+      <CaptionedImage caption={""} imageSrc={exploration}></CaptionedImage>
+      <CaptionedImage caption={""} imageSrc={usertesting}></CaptionedImage>
     </ProjectContainer>
   );
 }
