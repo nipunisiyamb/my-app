@@ -19,6 +19,7 @@ import codesign from "./assets/co_design.png";
 import borrow from "./assets/borrow.png";
 import exploration from "./assets/exploration.svg";
 import usertesting from"./assets/user_testing.png";
+import webmockup from "./assets/web_mockups.png";
 
 import TopBar from "../../ui/topBar/TopBar";
 import { devices } from "../../../theme/devices";
@@ -117,12 +118,13 @@ export default function SWLC(props: {}) {
         In our initial conversations, we discovered that SWLC’s clientele tended to be older, 
         and often in distress at the time they seek SWLC’s service. 
         Therefore, we wanted to prioritize readability and accessibility of our web interfaces. 
-        We tested and implemented best practices in font size and color contrast throughout our visual system. 
+        We tested and implemented best practices in font weights, sizes and color contrast throughout our visual system. 
 
         </ProjectP>
       </ContentSection>
       <CaptionedImage caption={""} imageSrc={exploration}></CaptionedImage>
       <CaptionedImage caption={""} imageSrc={usertesting}></CaptionedImage>
+      <FullwidthImage imageSrc={webmockup}></FullwidthImage>
     </ProjectContainer>
   );
 }
