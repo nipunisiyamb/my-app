@@ -123,7 +123,7 @@ export default function SWLC(props: {}) {
         </ProjectP>
       </ContentSection>
       <CaptionedImage caption={""} imageSrc={exploration}></CaptionedImage>
-      <CaptionedImage caption={"Through initial user testing with 5 people, we figured out that older users tended to click navigation in menus and buttons instead of scroll down the page. Therefore, we further strengthened.."} imageSrc={usertesting}></CaptionedImage>
+      <CaptionedImage caption={"Through initial user testing with 5 people, we figured out that older users tended to click navigation in menus and buttons instead of scrolling down the page. Therefore, we further strengthened top navigation options."} imageSrc={usertesting}></CaptionedImage>
       <FullwidthImage imageSrc={webmockup}></FullwidthImage>
     </ProjectContainer>
   );
