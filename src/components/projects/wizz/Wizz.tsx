@@ -215,10 +215,8 @@ export default function Wizz(props: {}) {
       <ContentSection>
         <H2>Developing a functional prototype of the app</H2>
         <ProjectP>
-          Then I developed a functional app prototype with a selected set of
-          features using React Native and Spring/Java. The goal of this
-          prototype was to demonstrate the new app design and lesson strategy
-          during investor presentations.
+          Finally I handed off the Figma workspace to the developer to create a functional prototype to present to the client. 
+          The goal of this prototype was to demonstrate the new app design and lesson strategy during investor presentations.
         </ProjectP>
       </ContentSection>
       <VideoContainer>
