@@ -215,7 +215,7 @@ export default function Wizz(props: {}) {
       <ContentSection>
         <H2>Developing a functional prototype of the app</H2>
         <ProjectP>
-          Finally I handed off the Figma workspace to the developer to create a functional prototype to present to the client. 
+          Finally I handed off the Figma workspace to the developer to create a  \functional prototype to present to the client. 
           The goal of this prototype was to demonstrate the new app design and lesson strategy during investor presentations.
         </ProjectP>
       </ContentSection>
@@ -231,8 +231,8 @@ export default function Wizz(props: {}) {
         ></iframe>
       </VideoContainer>
 
-      <SummerySection>
-        {/* <H2>Reflections</H2> */}
+      {/* <SummerySection>
+        <H2>Reflections</H2>
         <H3>What is the most important lesson I learned from this project?</H3>
         <ProjectP>
           Most of my team members did not have prior experience in human
@@ -251,7 +251,7 @@ export default function Wizz(props: {}) {
           I would plan out remote design sessions more thoughtfully. I would
           love to try out Figma Jam.{" "}
         </ProjectP>
-      </SummerySection>
+      </SummerySection> */}
     </ProjectContainer>
   );
 }

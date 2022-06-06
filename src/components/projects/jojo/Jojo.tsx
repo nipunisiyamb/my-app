@@ -212,8 +212,8 @@ export default function Jojo(props: {}) {
             </ContentSection>
 
 
-            <SummerySection>
-                {/* <H2>Reflections</H2> */}
+            {/* <SummerySection>
+                <H2>Reflections</H2>
                 <H3>What is the most important lesson I learned from this project?</H3>
                 <ProjectP>
                     Most of my team members did not have prior experience in human
@@ -232,7 +232,7 @@ export default function Jojo(props: {}) {
                     I would plan out remote design sessions more thoughtfully. I would
                     love to try out Figma Jam.{" "}
                 </ProjectP>
-            </SummerySection>
+            </SummerySection> */}
         </ProjectContainer>
     );
 }

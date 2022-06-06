@@ -25,7 +25,7 @@ const AboutMePage = styled(Page)`
 `;
 
 const MainText = styled(H3)`
-  width: 30vw;
+  width: 28vw;
   margin: 0;
   margin-bottom: 0.8vw;
   @media ${devices.mobile} {
@@ -96,7 +96,7 @@ export default function AboutMe() {
 
             <MainText>
               I spend a lot of time listening to people
-              and thinking of ways in which everyone can participate in design processes
+              and thinking about how everyone can participate in design 
 
             </MainText>
             <Body>
@@ -107,8 +107,8 @@ export default function AboutMe() {
           <Image src={codesignImage}></Image>
         </ImageContainer> */}
             <MainText>
-              I am a natural connector of ideas and domains
-              and find multidisciplinary teams to be my preffered habitat
+              I am a natural connector of ideas and domains.
+              I find multidisciplinary teams to be my preffered habitat
 
             </MainText>
             <Body>

@@ -162,8 +162,8 @@ export default function PhoenixTransitBody(props: {}) {
         imageSrc={presentationImage}
       ></CaptionedImage>
 
-      <SummerySection>
-        {/* <H2>Reflections</H2> */}
+      {/* <SummerySection>
+        <H2>Reflections</H2>
         <H3>What is the most important lesson I learned from this project?</H3>
         <ProjectP>
           You can learn a lot by talking to people, even for just 5mins. If you
@@ -182,7 +182,7 @@ export default function PhoenixTransitBody(props: {}) {
           run our initial concepts through some transport professionals to
           understand their business viability.
         </ProjectP>
-      </SummerySection>
+      </SummerySection> */}
     </ProjectContainer>
   );
 }
