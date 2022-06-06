@@ -6,7 +6,7 @@ export const colorTheme = {
   lightGrey: "#EEEEEE",
   grey:"#D7D7D7",
   white:"#ffffff",
-  lightBlue:"#D5DEE2"
+  lightBlue:"#E8F1F5"
 }
 
 export const Main = styled.div`

@@ -16,7 +16,7 @@ const Header = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 3vw;
+  margin-bottom: 1vw;
 `;
 
 const AboutMePage = styled(Page)`
@@ -25,9 +25,9 @@ const AboutMePage = styled(Page)`
 `;
 
 const MainText = styled(H3)`
-  width: 28vw;
+  width: 30vw;
   margin: 0;
-  margin-bottom: 1vw;
+  margin-bottom: 0.8vw;
   @media ${devices.mobile} {
     width: 80vw;
     margin-bottom: 3vw;
@@ -36,9 +36,9 @@ const MainText = styled(H3)`
 `;
 
 const Body = styled(P)`
-  width: 35vw;
+  width: 30vw;
   margin: 0;
-  margin-bottom: 2vw;
+  margin-bottom: 4vw;
   @media ${devices.mobile} {
     width: 80vw;
     margin-bottom: 15vw;
@@ -61,7 +61,8 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   margin: auto;
-  width: 35vw;
+  width: 38vw;
+  margin-bottom: 5vw;
   @media ${devices.mobile} {
     width: 80vw;
   }
@@ -72,6 +73,7 @@ const Divider = styled.div`
   display:flex;
   align-items:center;
   justify-content:space-between;
+
 `;
 
 export default function AboutMe() {
@@ -81,15 +83,11 @@ export default function AboutMe() {
         <Header>
           <H2 color={"#D93690"}>About Me</H2>
         </Header>
-
-
         <Divider>
-
           <div>
             <MainText>
               I am a keen and sensitive observer
               who notices small things in the world
-
             </MainText>
             <Body>
             From the texture of a flower petal to the tone of a conversation, I use my sensitivity to capture rich amounts of information 
