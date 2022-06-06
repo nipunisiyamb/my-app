@@ -1,5 +1,5 @@
-import hero from "./assets/hero.jpg"
-import thumbnailHero from "./assets/thumbnail.png"
+import hero from "./assets/hero.png"
+import thumbnailHero from "./assets/thumbnail_2.png"
 
 
 export const SWLCData = {

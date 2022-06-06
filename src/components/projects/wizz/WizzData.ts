@@ -1,4 +1,4 @@
-import hero from "./assets/hero.jpg"
+import hero from "./assets/hero.png"
 import thumbnailHero from "./assets/thumbnailHero.jpg"
 
 
