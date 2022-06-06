@@ -54,6 +54,8 @@ import visualc from "./assets/visuals.svg";
 import userinterfaces from "./assets/UI_sketches.jpg";
 import iconsevolution from "./assets/icon_evolution_3.svg";
 import scenariodev from "./assets/scenario_dev.svg";
+import micro_int_1_video from "./assets/micro_int_1.mp4";
+import CaptionedVideo from "../../ui/video/CaptionedVideo";
 
 
 
@@ -204,6 +206,7 @@ export default function Wizz(props: {}) {
           For this we explored what a microinteraction for translation might look and work like.
         </ProjectP>
       </ContentSection>
+      <CaptionedVideo videoSrc={micro_int_1_video}></CaptionedVideo>
 
 
 
