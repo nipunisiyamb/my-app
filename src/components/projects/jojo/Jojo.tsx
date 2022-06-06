@@ -212,27 +212,27 @@ export default function Jojo(props: {}) {
             </ContentSection>
 
 
-            {/* <SummerySection>
+            <SummerySection>
                 <H2>Reflections</H2>
                 <H3>What is the most important lesson I learned from this project?</H3>
                 <ProjectP>
-                    Most of my team members did not have prior experience in human
-                    centered design. I learnt how to lead people from non-design
-                    backgrounds in the HCD process.
+                I learnt that quick prototypes and easily shapeable material such as PlayDoh can be used to generate design possibilities with people (esp. kids!). 
+                Doing this at the very early stages of the design process is a great way to narrow down design directions. 
                 </ProjectP>
 
                 <H3>What was the most challenging?</H3>
                 <ProjectP>
-                    Leading and managing a team remotely during COVID-19 and especially
-                    while preparing for my PhD defense.
+                The project spanned the early days of the Covid-19 pandemic. 
+                It was challenging to recalibrate my research and development plan a couple of times to make sure I could finish on time. 
+
                 </ProjectP>
 
                 <H3>What would I do differently if I were to do this project again?</H3>
                 <ProjectP>
-                    I would plan out remote design sessions more thoughtfully. I would
-                    love to try out Figma Jam.{" "}
+                I would have loved to have done a few more play sessions with children and their caregivers, especially incorporating the storytelling experience into the play. 
+
                 </ProjectP>
-            </SummerySection> */}
+            </SummerySection>
         </ProjectContainer>
     );
 }

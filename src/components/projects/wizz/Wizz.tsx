@@ -56,6 +56,7 @@ import iconsevolution from "./assets/icon_evolution_3.svg";
 import scenariodev from "./assets/scenario_dev.svg";
 import micro_int_1_video from "./assets/micro_int_1.mp4";
 import CaptionedVideo from "../../ui/video/CaptionedVideo";
+import micro_int_2_video from  "./assets/micro_2.mp4";
 
 
 
@@ -103,8 +104,8 @@ export default function Wizz(props: {}) {
 
         <H3>My Role</H3>
         <ProjectP>
-          I primarily led the design research, content strategy and visual strategy processes. Collaborating with a UX researcher,
-          language expert, English teachers and a visual designer, we developed a functional prototype of the platform for hand-off.
+          I primarily led the design research, content strategy and visual strategy processes. Collaborating with a
+          language expert, an interaction designer, a developer and English teachers we developed a functional prototype of the platform for hand-off.
         </ProjectP>
 
         <H3>Duration</H3>
@@ -207,6 +208,7 @@ export default function Wizz(props: {}) {
         </ProjectP>
       </ContentSection>
       <CaptionedVideo videoSrc={micro_int_1_video}></CaptionedVideo>
+      <CaptionedVideo videoSrc={micro_int_2_video}></CaptionedVideo>
 
 
 
@@ -231,27 +233,26 @@ export default function Wizz(props: {}) {
         ></iframe>
       </VideoContainer>
 
-      {/* <SummerySection>
+      <SummerySection>
         <H2>Reflections</H2>
         <H3>What is the most important lesson I learned from this project?</H3>
         <ProjectP>
-          Most of my team members did not have prior experience in human
-          centered design. I learnt how to lead people from non-design
-          backgrounds in the HCD process.
+        I learnt how to translate research findings into a business strategy and then translate that into visual and content strategies. This process helped me understand the different mindsets I need to have when switching between roles. 
+
         </ProjectP>
 
         <H3>What was the most challenging?</H3>
         <ProjectP>
-          Leading and managing a team remotely during COVID-19 and especially
-          while preparing for my PhD defense.
+        Conducting remote interviews across time zones while doing my full-time masters.
+
         </ProjectP>
 
         <H3>What would I do differently if I were to do this project again?</H3>
         <ProjectP>
-          I would plan out remote design sessions more thoughtfully. I would
-          love to try out Figma Jam.{" "}
+        I would explore more visual styles at the beginning of the project and test them out with the target user group. 
+
         </ProjectP>
-      </SummerySection> */}
+      </SummerySection>
     </ProjectContainer>
   );
 }
