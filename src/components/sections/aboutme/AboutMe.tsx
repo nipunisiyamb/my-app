@@ -8,6 +8,7 @@ import Link from "../../ui/link/Link";
 import ProjectCard from "../../ui/projectCard/ProjectCard";
 
 import handsonImage from "./assets/handson.png";
+import graphic from "./assets/graphic.png";
 // import codesignImage from "./assets/codesign.png";
 import codesignImage from "./assets/codesign.jpg";
 
@@ -24,7 +25,7 @@ const AboutMePage = styled(Page)`
 `;
 
 const MainText = styled(H3)`
-  width: 35vw;
+  width: 28vw;
   margin: 0;
   margin-bottom: 1vw;
   @media ${devices.mobile} {
@@ -78,54 +79,56 @@ export default function AboutMe() {
     <section id="aboutme">
       <AboutMePage>
         <Header>
-        <H2 color={"#D93690"}>About Me</H2>
+          <H2 color={"#D93690"}>About Me</H2>
         </Header>
 
-        
+
         <Divider>
-        
-        <div>
-          <MainText>
-            I’m a hands-on person. I love playing with materials and making
-            things, both digital and physical.
-          </MainText>
-          <Body>
-            From making provocative experience prototypes to trigger reactions
-            from research participants, to building functional digital-physical
-            prototypes for user testing, I love materializing ideas, bringing
-            them to life and seeing how people react to them.{" "}
-          </Body>
-        
 
-        {/* <ImageContainer>
+          <div>
+            <MainText>
+              I am a keen and sensitive observer
+              who notices small things in the world
+
+            </MainText>
+            <Body>
+            From the texture of a flower petal to the tone of a conversation, I use my sensitivity to capture rich amounts of information 
+            about the world. I record what I observe using visual methods such as doodles, notes and photos.   {" "}
+            </Body>
+
+            <MainText>
+              I spend a lot of time listening to people
+              and thinking of ways in which everyone can participate in design processes
+
+            </MainText>
+            <Body>
+              I strongly believe that the best design work happens together with “users”. I regularly facilitate meetings,
+              create new materials for co-design sessions and dive into the latest research on participatory design.
+            </Body>
+            {/* <ImageContainer>
           <Image src={codesignImage}></Image>
         </ImageContainer> */}
-        <MainText>
-          I believe diversity is generative and everyone has a designer in them.
-        </MainText>
-        <Body>
-          My design process has always been shaped by people I met, worked with
-          and shared my life together. I’m a huge fan of participatory design
-          and always seek inputs from diverse groups of people for my work.
-        </Body>
+            <MainText>
+              I am a natural connector of ideas and domains
+              and find multidisciplinary teams to be my preffered habitat
 
-        {/* <ImageContainer>
+            </MainText>
+            <Body>
+              If you peek into my inbox, you’ll find newsletters of everything from data science to succulent gardening. I draw from
+              this multiverse of interests and my training as both a classical singer and a designer to relate to new and disparate domains and people.
+            </Body>
+
+            
+
+            {/* <ImageContainer>
           <Image src={codesignImage}></Image>
         </ImageContainer> */}
-        <MainText>
-          I speak both design and engineering fluently. I like to be the glue
-          that holds teams together.{" "}
-        </MainText>
-        <Body>
-          I enjoy fuzziness, chaos and craziness as much as I do order and
-          logic. I think each of these plays a part in great designs, so do the
-          differences of my team members.
-        </Body>
-        </div>
 
-        <ImageContainer>
-          <Image src={handsonImage}></Image>
-        </ImageContainer>
+          </div>
+
+          <ImageContainer>
+          <Image src={graphic}></Image>
+          </ImageContainer>
 
         </Divider>
 

@@ -1,5 +1,5 @@
-import hero from "./assets/hero.jpg"
-import thumbnailHero from "./assets/thumbnail.jpg"
+import hero from "./assets/hero.png"
+import thumbnailHero from "./assets/thumbnail.png"
 
 
 export const BlipData = {

@@ -45,28 +45,29 @@ export default function Blip(props: {}) {
       <SummerySection>
         <Title>{BlipData.title}</Title>
         <ProjectP>
-          Today’s fast paced product design cycles give designers and
-          technologists very little time to think about the potential
-          consequences of new technology products before they hit the market and
-          are consumed by millions.
+          In this project I explored how running water usage in the home can be visualized effectively in real-time using a system of screen-based smart devices.
+          I conceptualized a system that consisted of a backend powered by national & local weather data, a learning flow meter and real- time feedback displays to be installed in homes, and a community that recognizes and rewards high savers
+
+          My goal was to help people monitor their usage patterns, learn better water habits and reduce water consumption.
         </ProjectP>
-        
+
+        <H3>Awards</H3>
+        <ProjectP>Fast Company World Changing Ideas 2019: Student Category Honorable Mention </ProjectP>
+        <ProjectP>ASU Design Excellence Award 2018</ProjectP>
+
         <H3>Project Type</H3>
-        <ProjectP>PhD Research (Dissertation Chapter) </ProjectP>
+        <ProjectP>Masters Emerging Technology Project </ProjectP>
+
+       
 
         <H3>Duration</H3>
-        <ProjectP>2 years (Dec 2018 - December 2020)</ProjectP>
+        <ProjectP>5 months</ProjectP>
 
       </SummerySection>
 
       <ContentSection>
-        <H2>Thinking beyond technological optimism</H2>
-        <ProjectP>
-          Today’s fast paced product design cycles give designers and
-          technologists very little time to think about the potential
-          consequences of new technology products before they hit the market and
-          are consumed by millions.
-        </ProjectP>
+        <H2>More coming soon...</H2>
+      
       </ContentSection>
     </ProjectContainer>
   );

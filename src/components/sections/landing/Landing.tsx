@@ -121,7 +121,9 @@ export default function Landing(props: RouteComponentProps<any>) {
             <div>
             <WelcomeText>Hello, I’m Nipuni {">"} nee-poo-nee</WelcomeText>
             <Intro>
-            I’m a designer, researcher and educator with a strong background in industrial design. I work with teams to explore complex problems  
+            I’m a designer, researcher, educator and creative problem solver. 
+If you hear someone burst into a random section of an opera, ah! that could be me too. :)
+  
             </Intro>
             <LinkContainer>
               <a href="#portfolio">
