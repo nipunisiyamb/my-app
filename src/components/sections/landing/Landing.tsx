@@ -122,7 +122,8 @@ export default function Landing(props: RouteComponentProps<any>) {
             <WelcomeText>Hello, I’m Nipuni {">"} nee-poo-nee</WelcomeText>
             <Intro>
             I’m a designer, researcher, educator and creative problem solver. 
-If you hear someone burst into a random section of an opera, ah! that could be me too. :)
+I use design research to explore complex problems systematically and help organizations implement human-centered design solutions. 
+
   
             </Intro>
             <LinkContainer>
