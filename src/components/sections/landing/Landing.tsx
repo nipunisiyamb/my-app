@@ -115,32 +115,33 @@ export default function Landing(props: RouteComponentProps<any>) {
         <Container>
           <section id="home">
             <Divider>
-            <ImageContainer>
-              <Image src={profileImage} alt="dfdf"></Image>
-            </ImageContainer>
-            <div>
-            <WelcomeText>Hello, I’m Nipuni {">"} nee-poo-nee</WelcomeText>
-            <Intro>
-            I’m a designer, researcher, educator and creative problem solver. 
-I use design research to explore complex problems systematically and help organizations implement human-centered design solutions. 
+              <ImageContainer>
+                <Image src={profileImage} alt="dfdf"></Image>
+              </ImageContainer>
+              <div>
+                <WelcomeText>Hello, I’m Nipuni {">"} nee-poo-nee</WelcomeText>
+                <Intro>
+                  I’m a designer, researcher, educator and creative problem solver.
+                  I love working with multidisciplinary teams to explore complex problems,
+                  visualize solutions, and deliver experiences that are inclusive and equitable.
 
-  
-            </Intro>
-            <LinkContainer>
-              <a href="#portfolio">
-                <Link text={"See my work"}></Link>
-              </a>
-              {/* <Link text={"More about me"}></Link>
+
+                </Intro>
+                <LinkContainer>
+                  <a href="#portfolio">
+                    <Link text={"See my work"}></Link>
+                  </a>
+                  {/* <Link text={"More about me"}></Link>
             <Link text={"View Resume"}></Link> */}
 
-              <a href="#aboutme">
-                <Link text={"More about me"}></Link>
-              </a>
-              {/* <a href="#resume">
+                  <a href="#aboutme">
+                    <Link text={"More about me"}></Link>
+                  </a>
+                  {/* <a href="#resume">
                 <Link text={"View resume"}></Link>
               </a> */}
-            </LinkContainer></div>
-            
+                </LinkContainer></div>
+
             </Divider>
           </section>
         </Container>
