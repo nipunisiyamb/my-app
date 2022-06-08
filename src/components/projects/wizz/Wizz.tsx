@@ -57,7 +57,10 @@ import scenariodev from "./assets/scenario_dev.svg";
 import micro_int_1_video from "./assets/micro_int_1.mp4";
 import CaptionedVideo from "../../ui/video/CaptionedVideo";
 import micro_int_2_video from  "./assets/micro_2.mp4";
-
+import wizzplan from "./assets/Wizz_project_plan.svg";
+import insights from "./assets/insights.svg";
+import interviews from "./assets/industry_interviews.png";
+import { Caption } from "react-bootstrap/lib/Carousel";
 
 
 
@@ -125,18 +128,29 @@ export default function Wizz(props: {}) {
         caption={""}
         imageSrc={startingbrief}
       ></CaptionedImage>
+      <ContentSection>
+        <ProjectH2>Project Planning</ProjectH2>
+        <ProjectP>
+          Since this was a complex project with many moving parts and team members across the US and Sri Lanka, we created a 
+          rough visual map of our project plan and shared it with our team and our client. 
+        </ProjectP>
+      </ContentSection>
+      <CaptionedImage
+        caption={""}
+        imageSrc={wizzplan}
+      ></CaptionedImage>
 
       <ContentSection>
         <ProjectH2>Conducting secondary research and qualitative interviews </ProjectH2>
         <ProjectP>
           We started by exploring the motivations of the Sri Lankans for learning English and the barriers they are facing. We reviewed a large body of previous research
-          findings and conducted rapid guirilla interviews with 6 participants selected through convenience sampling.
+          findings, remotely interviewed 6 existing users, and conducted rapid guerrilla interviews with 6 participants selected through convenience sampling.
         </ProjectP>
       </ContentSection>
-      <CaptionedImage caption={""} imageSrc={papersImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={guirillacards}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={barriers}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={interviewquotes}></CaptionedImage>
+      <CaptionedImage caption={"A snapshot from our secondary research review"} imageSrc={papersImage}></CaptionedImage>
+      <CaptionedImage caption={"Conversation starters that we used in guerrilla interviews"} imageSrc={guirillacards}></CaptionedImage>
+      <CaptionedImage caption={"Four of our key insights, simply illustrated to share with our team"} imageSrc={insights}></CaptionedImage>
+   
 
       <ContentSection>
         <H2>Reframing the problem</H2>
@@ -160,8 +174,9 @@ export default function Wizz(props: {}) {
         </ProjectP>
       </ContentSection>
       <FullwidthImage imageSrc={frameworkImage}></FullwidthImage>
-      <CaptionedImage caption={""} imageSrc={elementsImage}></CaptionedImage>
-      <CaptionedImage caption={""} imageSrc={spacedrep}></CaptionedImage>
+      <CaptionedImage caption={"Finding commanalities between English requirements of different industries"} imageSrc={interviews}></CaptionedImage>
+      <CaptionedImage caption={"Finding patterns in key technical components of English learning through online whiteboarding sessions"} imageSrc={elementsImage}></CaptionedImage>
+      {/* <CaptionedImage caption={"Through our auto-ethnographic study with existing language learning apps, we realized that spaced repition is a great way to help learners get better gradually"} imageSrc={spacedrep}></CaptionedImage> */}
 
 
 
