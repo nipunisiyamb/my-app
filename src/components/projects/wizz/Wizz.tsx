@@ -61,6 +61,8 @@ import wizzplan from "./assets/Wizz_project_plan.svg";
 import insights from "./assets/insights.svg";
 import interviews from "./assets/industry_interviews.png";
 import { Caption } from "react-bootstrap/lib/Carousel";
+import designprinciples from "./assets/design_principles.svg";
+import UserProfile from "./assets/user_profiles.svg";
 
 
 
@@ -155,8 +157,8 @@ export default function Wizz(props: {}) {
       <ContentSection>
         <H2>Reframing the problem</H2>
         <ProjectP>
-          We uncovered that peoples’ motivations to learn English significantly
-          relates to their aspirations to excel in their careers, from finding a
+          Our overarching insight was that peoples’ motivations to learn English significantly
+          relate to their aspirations to excel in their careers; from finding a
           good job to getting promoted frequently. With this insight, we
           redefined the brief to focus on building a learning platform that
           helps people to learn career-focused English skills.
@@ -176,9 +178,18 @@ export default function Wizz(props: {}) {
       <FullwidthImage imageSrc={frameworkImage}></FullwidthImage>
       <CaptionedImage caption={"Finding commanalities between English requirements of different industries"} imageSrc={interviews}></CaptionedImage>
       <CaptionedImage caption={"Finding patterns in key technical components of English learning through online whiteboarding sessions"} imageSrc={elementsImage}></CaptionedImage>
+      <CaptionedImage caption={"To distill our findings at this stage into actionable directions, we created 6 Design Principles. These were the foundation of our subsequent explorations"} imageSrc={designprinciples}></CaptionedImage>
       {/* <CaptionedImage caption={"Through our auto-ethnographic study with existing language learning apps, we realized that spaced repition is a great way to help learners get better gradually"} imageSrc={spacedrep}></CaptionedImage> */}
 
-
+      <ContentSection>
+        <H2>Identifying early adapters</H2>
+        <ProjectP>
+         Qualitative interviews with existing users and the guerrilla interviews conducted helped us understand 
+         the motivations and needs of people who might adapt the new English learning platform. Using this data, I illustrated 4 user profiles to present our key users' 
+         dreams, hopes, fears and needs. They were in the room with us as we conceptualized app features, lesson content and lesson progressions. 
+        </ProjectP>
+      </ContentSection>
+      <CaptionedImage caption={""} imageSrc={UserProfile}></CaptionedImage>
 
 
 
