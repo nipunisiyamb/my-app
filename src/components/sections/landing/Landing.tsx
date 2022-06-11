@@ -55,6 +55,7 @@ const Divider = styled.div`
   @media ${devices.mobile} {
     flex-direction:column;
     align-items:center;
+    width:90vw;
   }
 `;
 

@@ -33,7 +33,7 @@ const MainText = styled(H3)`
   margin: 0;
   margin-bottom: 0.8vw;
   @media ${devices.mobile} {
-    width: 70vw;
+    width: 80vw;
     margin-bottom: 3vw;
     margin-top: 6vw;
   }
@@ -44,7 +44,7 @@ const Body = styled(P)`
   margin: 0;
   margin-bottom: 4vw;
   @media ${devices.mobile} {
-    width: 75vw;
+    width: 80vw;
     margin-bottom: 15vw;
     margin-top: 2vw;
   }
@@ -82,7 +82,7 @@ const Divider = styled.div`
     flex-direction:column-reverse;
     align-items:center;
     justify-content:center;
-    margin:auto;
+    width:80vw;
     
   }
 
