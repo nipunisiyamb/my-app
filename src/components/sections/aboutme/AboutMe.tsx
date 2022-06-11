@@ -22,6 +22,10 @@ const Header = styled.div`
 const AboutMePage = styled(Page)`
   padding-top: 2vw;
   margin-top: 2vw;
+
+  @media ${devices.mobile} {
+    margin-top: 10vw;
+  }
 `;
 
 const MainText = styled(H3)`
@@ -29,7 +33,7 @@ const MainText = styled(H3)`
   margin: 0;
   margin-bottom: 0.8vw;
   @media ${devices.mobile} {
-    width: 80vw;
+    width: 70vw;
     margin-bottom: 3vw;
     margin-top: 6vw;
   }
@@ -40,7 +44,7 @@ const Body = styled(P)`
   margin: 0;
   margin-bottom: 4vw;
   @media ${devices.mobile} {
-    width: 80vw;
+    width: 75vw;
     margin-bottom: 15vw;
     margin-top: 2vw;
   }
@@ -64,7 +68,7 @@ const Image = styled.img`
   width: 38vw;
   margin-bottom: 5vw;
   @media ${devices.mobile} {
-    width: 80vw;
+    width: 100vw;
   }
 `;
 
@@ -73,6 +77,14 @@ const Divider = styled.div`
   display:flex;
   align-items:center;
   justify-content:space-between;
+
+  @media ${devices.mobile} {
+    flex-direction:column-reverse;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    
+  }
 
 `;
 

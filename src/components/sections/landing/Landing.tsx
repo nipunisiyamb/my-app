@@ -29,8 +29,8 @@ const WelcomeText = styled(H2)`
   font-size:1.8vw;
   color:#D93690;
   @media ${devices.mobile} {
-    width: 100vw;
-    font-size: 6vw;
+    width: 60vw;
+    font-size: 7.2vw;
     margin-bottom: 3vw;
     margin-top: 3vw;
   }
@@ -41,7 +41,7 @@ const Intro = styled(P)`
   margin: 0;
   margin-bottom: 2vw;
   @media ${devices.mobile} {
-    width: 70vw;
+    width:75vw;
   }
 `;
 
@@ -51,6 +51,11 @@ const Divider = styled.div`
   align-items:flex-end;
   flex-direction: row-reverse;
   margin-bottom:5vw;
+
+  @media ${devices.mobile} {
+    flex-direction:column;
+    align-items:center;
+  }
 `;
 
 
@@ -61,9 +66,11 @@ const ImageContainer = styled.div`
   // height: 20vw;
   // overflow: hidden;
   @media ${devices.mobile} {
-    width: 80vw;
+    width: 100vw;
     height: auto;
-    margin-top: 10vw;
+    margin-top: 10vw;    
+    margin-bottom: 10vw;
+
   }
 `;
 
@@ -72,7 +79,9 @@ const Image = styled.img`
   margin-right:10vw;
   width: 75vw;
   @media ${devices.mobile} {
-    width: 80vw;
+    width: 160vw;
+    margin-right:-10vw;
+
   }
 `;
 
@@ -83,10 +92,10 @@ const LinkContainer = styled.div`
   margin-bottom:2vw;
   z-index:1000;
   @media ${devices.mobile} {
-    margin-top: 4vw;
+    margin-top: 6vw;
     flex-direction: column;
-    width: 32vw;
-    height: 30vw;
+    width: 90vw;
+    height: 20vw;
     justify-content: space-between;
     margin-bottom: 15vw;
   }

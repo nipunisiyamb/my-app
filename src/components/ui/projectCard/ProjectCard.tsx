@@ -11,7 +11,7 @@ const ImageContainer = styled.div<{ size: number }>`
 
   @media ${devices.mobile} {
     width: 80vw;
-    height: auto;
+    height: auto;;
   }
 `;
 

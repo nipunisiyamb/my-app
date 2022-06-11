@@ -39,8 +39,10 @@ export const H1 = styled.h1`
     font-size:3.6vw;
      line-height:1.2;
      @media ${devices.mobile} {
-    font-size:7vw;
+    font-size:7.5vw;
      max-width:80vw;
+     margin-bottom:6vw;
+     margin-top:10vw;
   }
 `;
 
@@ -56,8 +58,10 @@ export const H2 = styled.h2<{color?:string}>`
 
 
     @media ${devices.mobile} {
-    font-size:6vw;
+    font-size:7.5vw;
     max-width:100vw;
+    line-height:1.3;
+
   }
 `;
 
@@ -86,7 +90,7 @@ export const P = styled.p`
     margin:0;
 
     @media ${devices.mobile} {
-    font-size:4.5vw;
+    font-size:4.3vw;
     max-width:100vw;
     line-height:1.5;
   }

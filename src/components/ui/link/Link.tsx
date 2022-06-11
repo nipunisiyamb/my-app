@@ -7,7 +7,7 @@ const Text = styled(P)`
   font-size: 1vw;
   margin: 0;
   @media ${devices.mobile} {
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-weight: 700;
   }
 `;

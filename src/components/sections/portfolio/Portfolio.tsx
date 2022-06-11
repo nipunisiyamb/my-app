@@ -11,6 +11,8 @@ const Header = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  @media ${devices.mobile} {
+margin-bottom:5vw;  }
 `;
 
 const LinkContainer = styled.div`
@@ -26,6 +28,10 @@ const PortfolioPage = styled(Page)`
   padding-top: 2vw;
   margin-top: 2vw;
   background-color: #f8f8f8;
+
+  @media ${devices.mobile} {
+    padding-top: 7vw;
+  }
 `;
 
 const ProjectContainer = styled.div`
