@@ -210,7 +210,17 @@ export default function Jojo(props: {}) {
                     My work with Jojo expanded into an ongoing collaboration with Arizona State University, University of Southern California, Arizona local public schools and community colleges and several nonprofits to implement child-care centers for homeless families and children to heal through play.
                 </ProjectP>
             </ContentSection>
-
+            <VideoContainer>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/3Ur9PlH1woU"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </VideoContainer>
 
             <SummerySection>
                 <H2>Reflections</H2>
